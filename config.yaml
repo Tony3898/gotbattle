@@ -1,0 +1,20 @@
+dev: true
+module_name: 'got'
+project_name: 'GOT Battle'
+digInUrl: '/app/got/battles'
+
+mongo_db:
+  url: 'mongodb+srv://tony:tony@gotbattlecluster.64uf8.mongodb.net'
+  db: gotbattle
+
+connection:
+  port: 5001
+  host: localhost
+
+nav:
+  - name: 'Battles'
+    sub:
+      - name: 'All Battles'
+        path: '/app/got/battles'
+      - name: 'All Battles Count'
+        path: '/app/got/battlesCount'
