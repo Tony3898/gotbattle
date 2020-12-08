@@ -9,7 +9,7 @@
     "start:server": "nodemon server",
     "start:ui": "webpack --watch",
     "build:ui": "webpack --mode production",
-    "start": "concurrently \" npm run start:server\" \"npm run start:ui\""
+    "start": "concurrently \" node server\" \"npm run start:ui\""
   },
   "repository": {
     "type": "git",
